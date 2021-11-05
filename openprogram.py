@@ -12,4 +12,4 @@ def readdb(program):
     with open("programdb.txt") as f:
         
 
-readdb("c")
+readdb("lnk")
