@@ -2,7 +2,7 @@
 A voice assistant made with python.
 
 ## Building
-You will need to install the following with pip.
+You will need to install the following with pip:
   
   pip install pyttsx3
   pip install SpeechRecognition
