@@ -13,6 +13,7 @@ import subprocess
 from pynput.keyboard import Listener
 import os
 import beautifulsouptest
+import assistanttext
 
 # this method is for taking the commands 
 # and recognizing the command from the 
@@ -226,10 +227,8 @@ def Take_query():
                         continue
 
                 elif "text" in query:
-                        program = input("Enter program to open: ")
-                        print(program + ".exe")
-                        os.system(program + ".exe")
                         speak("Running text mode")
+                        assistanttext()
 
                 else:
                         continue
